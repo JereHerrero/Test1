@@ -1,0 +1,37 @@
+
+
+section.portada-modelo .bottom-portada-modelo{
+  background-image:url('../../images/detalle-modelo/curvas_barroco.svg');
+}
+
+section.portada-modelo .box-dispositivos img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* section.portada-modelo::before{
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(180deg, rgba(128,191,190,0.95) 0%, rgba(0,0,0,0) 35%);
+  background: -webkit-linear-gradient(180deg, rgba(128,191,190,0.95) 0%, rgba(0,0,0,0) 35%);
+  background: linear-gradient(180deg, rgba(128,191,190,0.95) 0%, rgba(0,0,0,0) 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#020024",GradientType=1);
+} */
+
+
+section.portada-modelo::after{
+  background: #08202C;
+}
+
+section.portada-modelo h4, section.portada-modelo .info-portada-modelo .box-info p{
+  color: #fff;
+}
+
+section.portada-modelo h2{
+  display: inline-block;
+  background: #E5C4A1;
+  background: -webkit-linear-gradient(to right, #E5C4A1 40%, #B08261 80%);
+  background: -moz-linear-gradient(to right, #E5C4A1 40%, #B08261 80%);
+  background: linear-gradient(to right, #E5C4A1 40%, #B08261 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

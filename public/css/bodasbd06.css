@@ -1,0 +1,608 @@
+/* Portada */
+
+section.portada-bodas {
+  height: 1000px;
+  position: relative;
+  max-height: 850px;
+}
+
+section.portada-bodas::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+section.portada-bodas .bottom-portada-bodas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/curvas_home.svg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  bottom: -2px;
+  background-size: contain;
+  z-index: 1;
+}
+
+section.portada-bodas .info-portada {
+  height: 100vh;
+  max-height: 700px;
+  z-index: 2;
+}
+
+section.portada-bodas h1,
+section.portada-bodas p {
+  color: #fff;
+}
+
+section.portada-bodas .info-portada .box-info {
+  width: auto;
+  max-width: 48%;
+  position: relative;
+  z-index: 2;
+  padding-top: 5%;
+  text-align: center;
+}
+
+section.portada-bodas .info-portada .box-info a {
+  display: inline-block;
+}
+
+
+section.portada-bodas .info-portada .box-info a.boton {
+  padding: 15px 40px;
+  margin: 0 5px;
+}
+
+
+section.portada-bodas .info-portada .box-info h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+section.portada-bodas .info-portada .box-info p {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+section.portada-bodas .botones-portada .dropdown-menu.show {
+  background-color:transparent;
+  border: none;
+  text-align: center;
+  z-index: 999;
+}
+
+section.portada-bodas .botones-portada .boton-primario {
+  padding: 15px 40px;
+}
+
+section.portada-bodas .botones-portada .dropdown-menu.show .dropdown-item{
+  color: #fff;
+  background-color:  var(--color-6);
+  margin-bottom: 5px;
+  text-align:center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: auto;
+  padding: 5px 30px;
+}
+
+section.portada-bodas .botones-portada .dropdown-menu.show .dropdown-item:hover{
+  background-color: var(--color-7);
+}
+
+section.portada-bodas .info-portada .box-iframe {
+  position: relative;
+  z-index: 4;
+  top: 2%;
+  right: 5%;
+}
+
+section.portada-bodas .info-portada .box-iframe .mockup-phone {
+  position: relative;
+  z-index: 5;
+}
+
+section.portada-bodas .info-portada .box-iframe .circulo-scrollea {
+  position: absolute;
+  left: -50px;
+  top: 60px;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-6);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+section.portada-bodas .info-portada .box-iframe .circulo-scrollea img {
+  width: 12px;
+  height: auto;
+}
+
+
+section.portada-bodas .info-portada .box-iframe .circulo-scrollea span {
+  color: #fff;
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+
+section.portada-bodas .info-portada .box-iframe img.flecha-scrollea {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  left: -5px;
+  top: 165px;
+  z-index: 1;
+}
+
+section.portada-bodas .info-portada img.trama-circulos {
+  width: 20%;
+  position: absolute;
+  right: 8%;
+  bottom: -100px;
+  z-index: 3;
+}
+
+section.portada-bodas .info-portada .box-info p.price {
+  font-size: 25px;
+  width: auto;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.mockup-portada {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  text-align: center;
+  margin-top: -210px;
+}
+
+.mockup-portada img {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+}
+
+
+/* Caracteristicas */
+
+section.caracteristicas-home {
+  padding-top: 70px;
+  background-color: var(--color-5);
+  padding-bottom: 130px;
+  position: relative;
+}
+
+section.caracteristicas-home .container {
+  position: relative;
+  z-index: 9;
+}
+
+section.caracteristicas-home::after {
+  background-image: url('../images/curva_inferior_caracteristicas.svg');
+  position: absolute;
+  content: '';
+  /* background-size: contain !important; */
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+}
+
+
+section.caracteristicas-home .items {
+  margin-top: 70px;
+}
+
+section.caracteristicas-home .item-caracteristica h4 {
+  font-size: 19px;
+}
+
+section.caracteristicas-home .item-caracteristica p {
+  font-size: 15px;
+}
+
+section.caracteristicas-home .item-caracteristica img {
+  width: 70px;
+  height: auto;
+  margin-top: 0;
+}
+
+section.caracteristicas-home .item-caracteristica .info-item {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+
+
+/* Como funciona */
+
+section.como-funciona {
+  padding: 60px 0 15%;
+  position: relative;
+}
+
+section.como-funciona .steps-animations-inner {
+  background: linear-gradient(to bottom, var(--color-3) 23%, white 23%);
+  background-position-y: 250px;
+}
+
+
+section.como-funciona .steps-animations-inner .container {
+  background: url('../images/lineas_pasos.svg') no-repeat 50% 72%;
+  background-size: 60%;
+}
+
+
+section.como-funciona .row.animaciones-steps {
+  padding-top: 10px;
+}
+
+section.como-funciona .steps-animations-inner .step-1,
+section.como-funciona .steps-animations-inner .step-2,
+section.como-funciona .steps-animations-inner .step-3 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section.como-funciona .step-number {
+  text-align: center;
+  padding: 50px 55px;
+}
+
+
+section.como-funciona .step-number span.number {
+  display: inline-block;
+  background-color: var(--color-3);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.30), 0 5px 10px 0 rgba(131, 85, 85, 0.30);
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+section.como-funciona::after {
+  background-image: url('../images/curva_otro_planeta_sup.svg');
+  position: absolute;
+  content: '';
+  /* background-size: contain !important; */
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100%;
+  width: 100%;
+  top: 1px;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+
+/* Ventajas */
+
+/* section.ventajas-home{
+  padding: 100px 0 0;
+  position: relative;
+}
+
+section.ventajas-home .inner-ventajas{
+  background-color: var(--color-3);
+  position: relative;
+  z-index: 9;
+}
+
+
+section.ventajas-home .ventajas-top{
+  width: 100%;
+  height: auto;
+  margin-bottom: -2px;
+}
+
+section.ventajas-home .ventajas-bottom{
+  width: 100%;
+  height: auto;
+  margin-top: -2px;
+  background-color: var(--color-5);
+}
+
+section.ventajas-home .ventajas-top img{
+  width: 100%;
+  height: auto;
+}
+
+section.ventajas-home .ventajas-bottom img{
+  width: 100%;
+  height: auto;
+}
+
+
+section.ventajas-home .slide{
+  width: 100%;
+  padding-top: 30px;
+}
+
+section.ventajas-home .slide .img-slide-ventaja img{
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+}
+
+section.ventajas-home .slide .info-slide-ventaja img{
+  width: 80px;
+  height: auto;
+}
+
+section.ventajas-home .slide .info-slide-ventaja h4{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+section.ventajas-home .slide .info-slide-ventaja p{
+  display: inline-block;
+  width: 95%;
+}
+
+section.ventajas-home .carousel-indicators{
+  bottom: -60px;
+}
+
+
+section.ventajas-home .carousel-indicators li{
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-4);
+}
+
+section.ventajas-home .carousel-control-next-icon, section.ventajas-home .carousel-control-prev-icon{
+  width: 35px;
+  height: 90px;
+}
+
+section.ventajas-home .carousel-control-next{
+  right: -90px;
+  opacity: 1;
+}
+
+section.ventajas-home .carousel-control-prev{
+  left: -90px;
+  opacity: 1;
+}
+
+section.ventajas-home .carousel-control-next-icon{
+  background: url(../images/flecha_der.svg) center center no-repeat;
+}
+
+
+section.ventajas-home .carousel-control-prev-icon{
+  background: url(../images/flecha_izq.svg) center center no-repeat;
+} */
+
+
+
+/* Caracteristicas 2 */
+
+
+
+section.caracteristicas-2-home {
+  padding-top: 40px;
+  padding-bottom: 35px;
+  position: relative;
+  z-index: 99;
+  background-color: var(--color-5);
+}
+
+section.caracteristicas-2-home .container {
+  position: relative;
+  z-index: 999;
+}
+
+section.caracteristicas-2-home h2 {
+  text-align: left;
+  font-size: 60px;
+}
+
+section.caracteristicas-2-home .sub-title {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+section.caracteristicas-2-home .item-caracteristica-2 {
+  margin-bottom: 35px;
+}
+
+section.caracteristicas-2-home .item-caracteristica-2 .item-inner {
+  background-color: #fff;
+  padding-top: 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 15px -2px #555;
+  box-shadow: 0px 0px 15px -2px #555;
+
+
+}
+
+
+section.caracteristicas-2-home .item-caracteristica-2 .header-item {
+  min-height: 125px;
+  width: 100%;
+  -webkit-border-top-left-radius: 50px;
+  -webkit-border-top-right-radius: 50px;
+  -moz-border-radius-topleft: 50px;
+  -moz-border-radius-topright: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+
+
+section.caracteristicas-2-home .item-caracteristica-2 .header-item.style-1 {
+  background-color: var(--color-6);
+}
+
+section.caracteristicas-2-home .item-caracteristica-2 .header-item.style-2 {
+  background-color: var(--color-9);
+}
+
+
+section.caracteristicas-2-home .item-caracteristica-2 .header-item.style-1 .img-item {
+  background-color: var(--color-7);
+}
+
+section.caracteristicas-2-home .item-caracteristica-2 .header-item.style-2 .img-item {
+  background-color: var(--color-8);
+}
+
+
+
+section.caracteristicas-2-home .item-caracteristica-2 .img-item {
+  height: 100%;
+  width: 25%;
+  min-height: 125px;
+  padding: 0 15px;
+  -webkit-border-top-right-radius: 50px;
+  -moz-border-radius-topright: 50px;
+  border-top-right-radius: 50px;
+
+}
+
+section.caracteristicas-2-home .item-caracteristica-2 img {
+  width: 55px;
+  height: auto;
+}
+
+section.caracteristicas-2-home .item-caracteristica-2 p {
+  padding: 25px;
+  font-size: 15px;
+}
+
+section.caracteristicas-2-home .item-caracteristica-2 h4 {
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 10px;
+  color: #fff;
+  margin: 0;
+  display: inline-block;
+  width: 75%;
+}
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 767px) {
+
+  section.portada-bodas::after {
+    background-color: rgba(0, 0, 0, 0.60);
+  }
+
+  section.portada-bodas .info-portada .box-iframe {
+    display: none;
+  }
+
+  section.portada-bodas .info-portada .box-info {
+    max-width: 100%;
+    padding-top: 45px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+  }
+
+  section.portada-bodas .info-portada .box-info h1 {
+    font-size: 43px;
+    margin-bottom: 50px
+  }
+
+  section.portada-bodas .info-portada img.trama-circulos {
+    width: 50%;
+    right: 0;
+    bottom: -100px;
+  }
+
+  section.caracteristicas-home .item-caracteristica .info-item {
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  section.caracteristicas-home .item-caracteristica img {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  section.caracteristicas-2-home h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  section.caracteristicas-2-home .sub-title {
+    text-align: center;
+  }
+
+  section.como-funciona .steps-animations-inner {
+    background: none;
+  }
+
+  section.como-funciona .steps-animations-inner .container {
+    background: none;
+  }
+
+  section.como-funciona .steps-animations-inner .step-1,
+  section.como-funciona .steps-animations-inner .step-2,
+  section.como-funciona .steps-animations-inner .step-3 {
+    border-bottom: 1px solid var(--color-5)
+  }
+
+  section.como-funciona {
+    padding-top: 20px;
+  }
+
+  section.como-funciona .step-number {
+    padding-bottom: 15px;
+  }
+
+  section.caracteristicas-2-home .item-caracteristica-2 {
+    padding: 0 30px;
+  }
+
+  section.portada-bodas .info-portada .box-info p.price {
+    font-size: 18px;
+  }
+
+  section.caracteristicas-home {
+    padding-top: 145px;
+  }
+
+  section.caracteristicas-home .items {
+    margin-top: 50px;
+  }
+
+  section.portada-bodas .botones-portada .boton-primario {
+    margin-bottom: 15px;
+  }
+
+}

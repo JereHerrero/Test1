@@ -1,0 +1,37 @@
+section.portada-modelo .bottom-portada-modelo {
+  background-image: url('../../images/detalle-modelo/curvas_lavanda.svg');
+}
+
+section.portada-modelo .box-dispositivos img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* section.portada-modelo::before{
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(180deg, rgba(128,191,190,0.95) 0%, rgba(0,0,0,0) 35%);
+  background: -webkit-linear-gradient(180deg, rgba(128,191,190,0.95) 0%, rgba(0,0,0,0) 35%);
+  background: linear-gradient(180deg, rgba(128,191,190,0.95) 0%, rgba(0,0,0,0) 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#020024",GradientType=1);
+} */
+
+
+section.portada-modelo::after {
+  background: #74617E;
+}
+
+section.portada-modelo h4 {
+  color: #FFFCF8;
+}
+
+section.portada-modelo .info-portada-modelo .box-info p {
+  color: #B2A6D1;
+}
+
+section.portada-modelo h2 {
+  color: #F9FAF5;
+}
+
+section.portada-modelo .solicitar-wp {
+  color: #fff;
+}

@@ -1,0 +1,47 @@
+.not-found{
+  padding: 40px 0 0;
+  background: linear-gradient(to top, var(--color-3) 33%, var(--color-5) 33%);
+  background-position-y: -1px;
+}
+
+.not-found .animation-404{
+  width: 100%;
+}
+
+.not-found .info-404{
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+
+.not-found .info-404 h4{
+  font-size: 60px;
+}
+
+.not-found .info-404 h5{
+  font-size: 40px;
+  margin: 30px 0 60px;
+}
+
+.not-found .info-404 p{
+  font-size: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+  
+  .not-found .info-404{
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .not-found{
+    background: linear-gradient(to top, var(--color-3) 25%, var(--color-5) 25%);
+  }
+
+  .not-found .animation-404{
+    width: 90%;
+  }
+}
